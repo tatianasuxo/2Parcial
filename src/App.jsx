@@ -1,9 +1,10 @@
 import './App.css'
 import { AddButton } from './componentes/AddButton'
+import { MilkCard } from './componentes/MilkCard'
 function App() {
   return (
       <div className='App'>
-        <AddButton/>
+        <MilkCard/>
       </div>
   )
 }
